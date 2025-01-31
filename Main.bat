@@ -1,2 +1,2 @@
 @echo off
-Title Wspomagacz do friday night funkin
+chcp 65001 >null
