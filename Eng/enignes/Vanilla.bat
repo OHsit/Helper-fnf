@@ -1,10 +1,10 @@
 @echo off
 color 02
-echo [WSFNF] Installowanie potrzebnych bibliotek...
+echo [HFNF] Installaing all important packages...
 haxelib --global install hmm
 haxelib --global run hmm setup
 hmm install
 haxelib run lime setup
 cls
-echo Wszystko zainstallowane!
+echo All done!
 pause

@@ -4,12 +4,12 @@ call :banner
 :banner
 echo.
 echo.
-echo     __      __                                                                    _____       _____ 
-echo    /  \    /  \____________   ____   _____ _____     _________    ____ ________ _/ ____\_____/ ____\
-echo    \   \/\/   /  ___/\____ \ /  _ \ /     \\__  \   / ___\__  \ _/ ___\\___   / \   __\/    \   __\ 
-echo     \        /\___ \ |  |_> >  <_> )  Y Y  \/ __ \_/ /_/  > __ \\  \___ /    /   |  | |   |  \  |   
-echo      \__/\  //____  >|   __/ \____/|__|_|  (____  /\___  (____  /\___  >_____ \  |__| |___|  /__|   
-echo           \/      \/ |__|                \/     \//_____/     \/     \/      \/            \/     
+echo    ___ ___         .__                          _____       _____ 
+echo   /   |   \   ____ |  | ______   ___________  _/ ____\_____/ ____\
+echo  /    ~    \_/ __ \|  | \____ \_/ __ \_  __ \ \   __\/    \   __\ 
+echo  \    Y    /\  ___/|  |_|  |_> >  ___/|  | \/  |  | |   |  \  |   
+echo   \___|_  /  \___  >____/   __/ \___  >__|     |__| |___|  /__|   
+echo         \/       \/     |__|        \/                   \/       
 echo.
 echo.
 echo.
@@ -19,18 +19,18 @@ goto select
 :select
 color 07
 echo.
-echo                                  Wybierz Silnik:
+echo                                   Choose engine:
 echo               ╔══════════════════════════════════════════════════════╗
 echo               ║     1. Vanilla        2. Kade     3. Psych           ║
 echo               ║                                                      ║
 echo               ╚══════════════════════════════════════════════════════╝
 echo.
-set /p picks= Wybierz:
+set /p picks= Choose:
 if %picks% = 1 goto Vanilla
 if %picks% = 2 goto Kade
 if %picks% = 3 goto Psych
 color 04
-echo "Nie ma takiej komendy"
+echo "that command dosen't exists"
 goto select
 
 :Vanilla

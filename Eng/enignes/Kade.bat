@@ -1,6 +1,6 @@
 @echo off
 color 02
-echo [WSFNF] Installowanie potrzebnych bibliotek...
+echo [HFNF] Installaing all important packages...
 haxelib install lime 7.9.0
 haxelib install openfl
 haxelib install flixel
@@ -20,5 +20,5 @@ haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 haxelib git extension-webm https://github.com/KadeDev/extension-webm
 lime rebuild extension-webm windows
 cls
-echo Wszystko zainstallowane!
+echo All done!
 pause
