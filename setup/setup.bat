@@ -2,6 +2,7 @@
 title Setup
 goto :ChooseLang
 
+
 :ChooseLang
 echo What language do you choose?
 echo.
