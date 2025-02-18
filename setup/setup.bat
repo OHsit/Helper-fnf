@@ -35,6 +35,8 @@ echo [Setup HFNF] Installing Helper FNF Itself...
 if not exist "Eng" mkdir Eng
 if not exist "Eng\engines" mkdir Eng\engines
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './installsoftwareEng.ps1'"
+timeout /t 30 /nobreak
+echo installation was done sucesful!
 pause
 
 
@@ -56,4 +58,6 @@ echo [Setup WSFNF] Installowanie Wspomagacza Fnf...
 if not exist "pl" mkdir pl
 if not exist "pl\engines" mkdir pl\engines
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './installsoftwarePL.ps1'"
+timeout /t 10 /nobreak
+echo Instalacja zostala zakoniczona sukcesem!
 pause
