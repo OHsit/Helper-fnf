@@ -10,4 +10,4 @@ See [Releases](https://github.com/OHsit/Helper-fnf/releases). Download the lates
 
 
 ## Authors & Contributors
-- [Kapi (OHsit](https://github.com/OHsit)
+- [Kapi (OHsit)](https://github.com/OHsit)
