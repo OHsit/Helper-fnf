@@ -1,7 +1,7 @@
 # Helper FNF
 
 > [!NOTE]
-> Helper FNF is **ONLY** for installing libarys for compling Source code of this engines
+> Helper FNF is **ONLY** for installing libraries for compling Source code of this engines
 
 Utilty tool for fnf engines wrote in batch.
 
@@ -10,4 +10,4 @@ See [Releases](https://github.com/OHsit/Helper-fnf/releases). Download the lates
 
 
 ## Authors & Contributors
-- [Kapi(OHsit](https://github.com/OHsit)
+- [Kapi (OHsit](https://github.com/OHsit)
