@@ -6,7 +6,6 @@
 Utilty tool for fnf engines wrote in batch.
 
 ## Instalation 
-https://github.com/OHsit/Helper-fnf/releases
 See [Releases](https://github.com/OHsit/Helper-fnf/releases). Download the latest version for Windows.
 
 
